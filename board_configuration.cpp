@@ -14,6 +14,8 @@ Gpio getWarningLedPin() {
 
 // board-specific configuration setup
 void setBoardDefaultConfiguration() {
+	
+	engineConfiguration->cylindersCount = 4;
     // engineConfiguration->injectionPins[0] = Gpio::F13;
     // engineConfiguration->ignitionPins[0] = Gpio::E15;
 
